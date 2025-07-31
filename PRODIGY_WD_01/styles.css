@@ -1,0 +1,85 @@
+* {
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+}
+
+.header {
+  height: 15vh;
+}
+
+.nav-bar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: #2C2C2C;
+  color: #ffffff;
+  z-index: 1000;
+}
+
+.nav-bar > ul {
+  display: flex;
+  justify-content: center;
+  padding: 1rem;
+  margin: 0;
+  list-style-type: none;
+}
+
+.nav-bar li {
+  margin: 0.6rem;
+  padding: 20px;
+}
+
+.nav-bar li a {
+  text-decoration: none;
+  outline:none;
+  color: #ffffff;
+  
+}
+
+.section {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#aboutme {
+  background: linear-gradient(to right,
+    #89f7fe,
+    #66a6ff);
+    color: #1f2f5d;
+}
+
+#skills {
+  background-color: #ffd6c0;
+  color: #3e1f0e;
+}
+
+#projects {
+  background-color: #6a0dad;
+  color: #f8f8ff;
+}
+
+#certificates {
+  background-color: #a8e6cf;
+  columns: #064420;
+}
+
+#contact {
+  background-color: #1e1e1e;
+  color: #e0e0e0;
+}
+
+.nav-bar ul li:hover {
+  transition: all 0.1s ease-in-out;
+  background-color: #a8e6cf;
+  border-radius: 10px;
+}
+
+
+.nav-bar.scrolled li a {
+  background-color: #1f1f1f;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
