@@ -1,0 +1,87 @@
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #e0e0e0;
+}
+
+.heading {
+  color: #0e440b;
+  font-size: 5rem;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 4px solid black;
+  padding: 26px;
+  border-radius: 50px;
+  
+}
+
+.time-display {
+  font-size: 5rem;
+  color: ##060101;
+}
+
+.start {
+  outline: none;
+  background-color: rgb(66, 242, 8);
+  padding: 16px;
+  border-radius: 10px;
+  cursor: pointer;
+  border-width: 0;
+  color: #060101;
+  font-weight: bold;
+  font-size: 1rem;
+  margin-right: 20px;
+}
+
+.stop {
+  outline: none;
+  background-color: rgb(247, 7, 7);
+  padding: 16px;
+  border-radius: 10px;
+  cursor: pointer;
+  border-width: 0;
+  color: #060101;
+  font-weight: bold;
+  font-size: 1rem;
+  margin-right: 20px;
+}
+
+.reset {
+  outline: none;
+  background-color: rgb(6, 163, 254);
+  padding: 16px;
+  border-radius: 10px;
+  cursor: pointer;
+  border-width: 0;
+  color: #060101;
+  font-weight: bold;
+  font-size: 1rem;
+  margin-right: 20px;
+}
+
+.record {
+  outline: none;
+  background-color: rgb(249, 118, 252);
+  padding: 16px;
+  border-radius: 10px;
+  cursor: pointer;
+  border-width: 0;
+  color: #060101;
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+#laps {
+  list-style-type: none;
+  margin-top: 20px;
+  padding: 0px;
+}
